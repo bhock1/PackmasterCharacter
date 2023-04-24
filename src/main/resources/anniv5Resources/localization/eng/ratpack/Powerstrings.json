@@ -1,0 +1,15 @@
+{
+  "${ModID}:CheesePower": {
+    "NAME": "Cheese!",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b",
+      " #yRats.",
+      " #yRat."
+    ]
+  },
+  "${ModID}:": {
+    "NAME": "",
+    "DESCRIPTIONS": [
+    ]
+  }
+}

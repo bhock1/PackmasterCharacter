@@ -1,0 +1,15 @@
+{
+  "${ModID}:RatPack": {
+    "TEXT": [
+      "Rats!",
+      "Train an army of rats to take over the Spire!",
+      "Doodle"
+    ]
+  },
+  "${ModID}:RatPackHat": {
+    "TEXT": [
+      "Rhat? Hrat? Ratat? Hatrat? ...",
+      "Rat Hat"
+    ]
+  }
+}
