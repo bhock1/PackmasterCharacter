@@ -3,6 +3,8 @@ package thePackmaster.cards.ratpack;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import thePackmaster.cards.AbstractPackmasterCard;
+import thePackmaster.powers.ratpack.CheesePower;
+import thePackmaster.util.Wiz;
 
 import static thePackmaster.SpireAnniversary5Mod.makeID;
 import static thePackmaster.util.Wiz.*;
@@ -16,8 +18,7 @@ public class Cheese extends AbstractRatCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        //apply cheese power!
-
+        Wiz.applyToSelf(new CheesePower(p, 1));
     }
 
     public void upp() {

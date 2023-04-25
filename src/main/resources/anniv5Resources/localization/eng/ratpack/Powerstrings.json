@@ -7,9 +7,32 @@
       " #yRat."
     ]
   },
-  "${ModID}:": {
-    "NAME": "",
+  "${ModID}:RatMilitiaPower": {
+    "NAME": "Rat Militia",
     "DESCRIPTIONS": [
+      "Whenever you play a #yRat, deal #b",
+      " damage to a random enemy."
+    ]
+  },
+  "${ModID}:RatGuardPower": {
+    "NAME": "Rat Guard",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yRat, gain #b",
+      " Block."
+    ]
+  },
+  "${ModID}:StrongTogetherPower": {
+    "NAME": "Strong Together",
+    "DESCRIPTIONS": [
+      "Whenever a #yRat, created, gain #b",
+      " #yTemporary #yStrength."
+    ]
+  },
+  "${ModID}:WaveOfTheRatPower": {
+    "NAME": "Wave of the Rat",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yRat this turn, apply #b",
+      " #yWeak to ALL enemies."
     ]
   }
 }

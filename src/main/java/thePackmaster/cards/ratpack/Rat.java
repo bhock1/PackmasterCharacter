@@ -18,9 +18,10 @@ public class Rat extends AbstractRatCard {
     // intellij stuff attack, enemy, special, 1, , , , 1, 
 
     public Rat() {
-        super(ID, 0, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY);
+        super(ID, 0, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY, CardColor.COLORLESS);
         baseDamage = 1;
         baseMagicNumber = magicNumber = 1;
+        exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

@@ -3,11 +3,11 @@ package thePackmaster.cards.ratpack;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import thePackmaster.cards.AbstractPackmasterCard;
+import thePackmaster.powers.ratpack.RatMilitiaPower;
+import thePackmaster.powers.ratpack.WaveOfTheRatPower;
 import thePackmaster.util.Wiz;
 
 import static thePackmaster.SpireAnniversary5Mod.makeID;
-import static thePackmaster.util.Wiz.*;
 
 public class RatMilitia extends AbstractRatCard {
     public final static String ID = makeID("RatMilitia");
@@ -20,10 +20,11 @@ public class RatMilitia extends AbstractRatCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        //apply rat militia power
+        Wiz.applyToSelf(new RatMilitiaPower(p, magicNumber));
         Wiz.atb(new MakeTempCardInHandAction(new Rat(), this.secondMagic));
     }
 
     public void upp() {
+        upgradeBaseCost(0);
     }
 }

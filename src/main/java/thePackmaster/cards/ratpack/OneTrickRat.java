@@ -4,6 +4,7 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import thePackmaster.actions.ratpack.OneTrickRatAction;
 import thePackmaster.cards.AbstractPackmasterCard;
 import thePackmaster.util.Wiz;
 
@@ -22,11 +23,10 @@ public class OneTrickRat extends AbstractRatCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         dmg(m, AbstractGameAction.AttackEffect.SLASH_DIAGONAL);
-        //onetrickrat action
-
+        Wiz.atb(new OneTrickRatAction());
     }
 
     public void upp() {
-        upgradeDamage(12);
+        upgradeDamage(2);
     }
 }
