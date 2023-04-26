@@ -16,7 +16,7 @@ public class RatGuard extends AbstractRatCard {
 
     public RatGuard() {
         super(ID, 1, CardType.POWER, CardRarity.UNCOMMON, CardTarget.SELF);
-        baseMagicNumber = magicNumber = 3;
+        baseMagicNumber = magicNumber = 2;
         baseSecondMagic = secondMagic = 1;
     }
 

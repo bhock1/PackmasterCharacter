@@ -15,8 +15,8 @@ public class RatWall extends AbstractRatCard {
 
     public RatWall() {
         super(ID, 2, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
-        baseBlock = 10;
-        baseMagicNumber = magicNumber = 3;
+        baseBlock = 12;
+        baseMagicNumber = magicNumber = 2;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
@@ -25,7 +25,7 @@ public class RatWall extends AbstractRatCard {
     }
 
     public void upp() {
-        upgradeBlock(2);
+        upgradeBlock(4);
         upgradeMagicNumber(1);
     }
 }

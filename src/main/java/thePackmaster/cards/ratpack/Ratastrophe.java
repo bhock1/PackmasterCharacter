@@ -16,6 +16,7 @@ public class Ratastrophe extends AbstractRatCard {
     public Ratastrophe() {
         super(ID, 2, CardType.SKILL, CardRarity.RARE, CardTarget.NONE);
         exhaust=true;
+        isEthereal=true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
@@ -26,6 +27,6 @@ public class Ratastrophe extends AbstractRatCard {
     }
 
     public void upp() {
-        upgradeBaseCost(1);
+        isEthereal=false;
     }
 }

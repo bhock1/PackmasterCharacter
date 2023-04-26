@@ -1,16 +1,17 @@
 {
   "${ModID}:Rat": {
     "NAME": "Rat",
-    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage twice. NL Draw 1 card. NL Exhaust."
   },
   "${ModID}:RattyStrike": {
     "NAME": "Ratty Strike",
-    "DESCRIPTION": "Deal !D! damage. Add !M! Rat into your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. Add !M! Rats into your hand."
+    "DESCRIPTION": "Deal !D! damage. NL Add !M! Rat into your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add !M! Rats into your hand."
   },
   "${ModID}:RatWall": {
     "NAME": "Rat Wall",
-    "DESCRIPTION": "Gain !B! Block. Add !M! *Rats into your hand."
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! *Rats into your hand."
   },
   "${ModID}:RatSwarm": {
     "NAME": "Rat Swarm",
@@ -18,7 +19,7 @@
   },
   "${ModID}:OneTrickRat": {
     "NAME": "One-Trick Rat",
-    "DESCRIPTION": "Deal !D! damage. Draw a card. If it is a *Rat, gain [E]."
+    "DESCRIPTION": "Deal !D! damage. NL Draw a card. If it is a *Rat, gain [E]."
   },
   "${ModID}:Cheese": {
     "NAME": "Cheese!",
@@ -27,20 +28,21 @@
   },
   "${ModID}:RatGuard": {
     "NAME": "Rat Guard",
-    "DESCRIPTION": "When you play a *Rat, gain 3 Block. NL Add a *Rat into your hand.",
-    "UPGRADE_DESCRIPTION": "Innate NL When you play a *Rat, gain 3 Block. NL Add a *Rat into your hand."
+    "DESCRIPTION": "Whenever you play a *Rat, gain 3 Block. NL Add a *Rat into your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you play a *Rat, gain 3 Block. NL Add a *Rat into your hand."
   },
   "${ModID}:RatMilitia": {
     "NAME": "Rat Militia",
-    "DESCRIPTION": "When you play a *Rat, deal 3 damage to a random enemy. NL Add a *Rat into your hand."
+    "DESCRIPTION": "Whenever you play a *Rat, deal 3 damage to a random enemy. NL Add a *Rat into your hand."
   },
   "${ModID}:Ratastrophe": {
     "NAME": "Ratastrophe",
-    "DESCRIPTION": "Fill your hand with *Rats. Exhaust."
+    "DESCRIPTION": "Ethereal. NL Fill your hand with *Rats. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Fill your hand with *Rats. NL Exhaust."
   },
   "${ModID}:StrongTogether": {
     "NAME": "Strong Together",
-    "DESCRIPTION": "Whenever a *Rat is created, gain !M! Temporary_Strength"
+    "DESCRIPTION": "Whenever a *Rat is created, gain !M! Temporary Strength."
   },
   "${ModID}:RatKing": {
     "NAME": "Rat King",

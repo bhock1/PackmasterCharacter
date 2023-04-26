@@ -25,8 +25,11 @@ public class Rat extends AbstractRatCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+
         Wiz.atb(new VFXAction(new BiteEffect(m.hb.cX, m.hb.cY - 40.0F * Settings.scale, Settings.GOLD_COLOR.cpy()), 0.1F));
         dmg(m, AbstractGameAction.AttackEffect.NONE);
+        if (this.upgraded)
+            dmg(m, AbstractGameAction.AttackEffect.NONE);
         Wiz.atb(new DrawCardAction(magicNumber));
     }
 
